@@ -22,8 +22,6 @@ Every prompt uses `[bracketed variables]` for the context you supply. Before run
 2. Add any constraints the model needs (timeline, audience, technical context)
 3. Treat the output as a first draft. Push back, ask follow-ups, refine.
 
-Prompts work best in Claude or GPT-4-class models with a large context window. For longer prompts (experiment design, kick-off docs), paste relevant background before the prompt itself.
-
 ---
 
 ## Contributing
