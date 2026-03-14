@@ -18,6 +18,6 @@
 >
 > Do not infer problems that have no basis in the material. Treat all source types equally regardless of format.
 >
-> Competitive material: [PASTE ALL COMPETITIVE MATERIAL HERE]
+> Competitive material: [ATTACH FILES or PASTE CONTENT - accepted formats include URLs, PDFs, spec sheets, and marketing collateral]
 
 **Why It Works:** Competitive material is written to persuade buyers, which means it reveals what problems the market actually recognizes. Structuring the output as an intelligence brief makes it immediately shareable with sales and leadership without translation. The audience variable ensures the language fits who's reading it, not just who ran the prompt.

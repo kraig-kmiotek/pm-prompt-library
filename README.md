@@ -8,8 +8,9 @@ A copy-paste-ready collection of AI prompts organized by PM practice area. Built
 
 - [Discovery](./Discovery/README.md): Surface real user problems before committing to solutions
 - [Strategy](./Strategy/README.md): Size opportunities, position against competitors, and build roadmap narratives
-- [Stakeholder Comms](./Stakeholder-Comms/README.md): Drive alignment, resolve conflict, and move decisions forward
 - [Data Analysis](./Data-Analysis/README.md): Investigate metric movements, design experiments, and define north stars
+- [Stakeholder Comms](./Stakeholder-Comms/README.md): Drive alignment, resolve conflict, and move decisions forward
+- [Sales Enablement](./Sales-Enablement/README.md): Equip sales with positioning, competitive context, and objection handling
 - [Leadership](./Leadership/README.md): Run better retros, develop your team, and kick off cross-functional work
 
 ---
@@ -22,7 +23,8 @@ Every prompt uses `[bracketed variables]` for the context you supply. Before run
 
 1. Replace all `[bracketed variables]` with specifics from your situation
 2. Add any constraints the model needs (timeline, audience, technical context)
-3. Treat the output as a first draft. Push back, ask follow-ups, refine.
+3. Remove any input fields you aren't using before running the prompt.
+4. Treat the output as a first draft. Push back, ask follow-ups, refine.
 
 ---
 
