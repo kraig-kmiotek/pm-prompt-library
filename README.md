@@ -11,6 +11,7 @@ A copy-paste-ready collection of AI prompts organized by PM practice area. Built
 - [Data Analysis](./Data-Analysis/README.md): Tools for making sense of data, signals, and what they mean for the product
 - [Stakeholder Comms](./Stakeholder-Comms/README.md): Tools for navigating alignment, conflict, and the humans in the room
 - [Sales Enablement](./Sales-Enablement/README.md): Tools for preparing, positioning, and showing up ready in front of customers
+- [Content Creation](./Content-Creation/README.md): Tools for turning raw materials into polished, audience-ready content
 - [Leadership](./Leadership/README.md): Tools for running better teams, sharper meetings, and stronger cross-functional work
 
 ---
