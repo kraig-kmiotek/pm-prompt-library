@@ -1,16 +1,16 @@
 # PM Prompt Library
 
-A copy-paste-ready collection of AI prompts organized by PM practice area. Built for product managers who already know the craft — prompts assume fluency with discovery, strategy, and stakeholder dynamics, and are designed to accelerate good thinking rather than substitute for it. Each prompt is a starting point: swap out the bracketed variables for your context, run it, and iterate from the output.
+A copy-paste-ready collection of AI prompts organized by PM practice area. Built for product managers who already know the craft. Prompts assume fluency with discovery, strategy, and stakeholder dynamics, and are designed to accelerate good thinking rather than substitute for it. Each prompt is a starting point: swap out the bracketed variables for your context, run it, and iterate from the output.
 
 ---
 
 ## Table of Contents
 
-- [Discovery](./Discovery/README.md) — Surface real user problems before committing to solutions
-- [Strategy](./Strategy/README.md) — Size opportunities, position against competitors, and build roadmap narratives
-- [Stakeholder Comms](./Stakeholder-Comms/README.md) — Drive alignment, resolve conflict, and move decisions forward
-- [Data Analysis](./Data-Analysis/README.md) — Investigate metric movements, design experiments, and define north stars
-- [Leadership](./Leadership/README.md) — Run better retros, develop your team, and kick off cross-functional work
+- [Discovery](./Discovery/README.md): Surface real user problems before committing to solutions
+- [Strategy](./Strategy/README.md): Size opportunities, position against competitors, and build roadmap narratives
+- [Stakeholder Comms](./Stakeholder-Comms/README.md): Drive alignment, resolve conflict, and move decisions forward
+- [Data Analysis](./Data-Analysis/README.md): Investigate metric movements, design experiments, and define north stars
+- [Leadership](./Leadership/README.md): Run better retros, develop your team, and kick off cross-functional work
 
 ---
 
@@ -20,7 +20,7 @@ Every prompt uses `[bracketed variables]` for the context you supply. Before run
 
 1. Replace all `[bracketed variables]` with specifics from your situation
 2. Add any constraints the model needs (timeline, audience, technical context)
-3. Treat the output as a first draft — push back, ask follow-ups, refine
+3. Treat the output as a first draft. Push back, ask follow-ups, refine.
 
 Prompts work best in Claude or GPT-4-class models with a large context window. For longer prompts (experiment design, kick-off docs), paste relevant background before the prompt itself.
 
