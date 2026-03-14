@@ -79,9 +79,10 @@
 > 1. Generate three pitches: 30 seconds, 60 seconds, and 90 seconds
 > 2. Calibrate the language and tone to the role specified
 > 3. Calibrate the depth and focus to the event and audience context from the conference materials
-> 4. Write for spoken delivery, use natural conversational language, not prose
-> 5. Label each pitch clearly with its target length
-> 6. Target each length assuming an average speaking pace of 130 words per minute
+> 4. Use the company materials to align the pitch with brand voice and messaging
+> 5. Write for spoken delivery, use natural conversational language, not prose
+> 6. Label each pitch clearly with its target length
+> 7. Target each length assuming an average speaking pace of 130 words per minute
 >
 > Do not introduce claims or information that have no basis in the materials provided.
 >
