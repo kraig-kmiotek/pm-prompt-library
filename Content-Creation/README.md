@@ -1,5 +1,35 @@
 # Content Creation
 
+## LinkedIn Post Generator
+
+**Use Case:** You have a topic, notes, or source material and want a high-engagement LinkedIn post that follows proven best practices for reach and readability.
+
+**Prompt:**
+
+> You are a LinkedIn content strategist. Using the input provided below, write a single LinkedIn post optimized for engagement.
+>
+> Tone and voice: [TONE - e.g., "professional and direct," "conversational and personal," "authoritative and bold," "warm and encouraging"]
+>
+> Post objective: [OBJECTIVE - e.g., "thought leadership," "personal story," "product or company update," "industry insight," "lessons learned"]
+>
+> Instructions:
+> 1. Open with a single punchy hook line that stops the scroll. Do not start with "I" and do not use a question as the opener.
+> 2. Follow with 2-3 short sentences that set up the core idea before moving into the list
+> 3. Use arrow lists (→) to break down the key points, with 4-6 items maximum
+> 4. Close with a 1-2 sentence takeaway or call to action that invites engagement
+> 5. Keep the total post between 1,200 and 1,400 characters including spaces
+> 6. Use line breaks between every section to maximize white space and readability
+> 7. Write in the tone and voice specified
+> 8. Do not use hashtags, emojis, or corporate buzzwords
+>
+> Do not summarize the input. Transform it into a post that feels original, human, and worth reading.
+>
+> Input: [ATTACH FILES or PASTE CONTENT - topic notes, articles, ideas, or any relevant material]
+
+**Why It Works:** LinkedIn's algorithm rewards posts that generate early engagement, which means the hook and structure matter as much as the content. Arrow lists improve readability on mobile, which is where most LinkedIn consumption happens. Banning buzzwords and forcing a character range keeps the output sharp and authentic rather than generic. The objective variable ensures the post is shaped around what the writer is actually trying to accomplish, not just what the input contains.
+
+---
+
 ## Product Podcast Script Generator
 
 **Use Case:** You have marketing collateral or product materials and want to generate a podcast-style script that can be used for internal training, sales enablement, or external content.
