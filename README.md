@@ -6,12 +6,12 @@ A copy-paste-ready collection of AI prompts organized by PM practice area. Built
 
 ## Table of Contents
 
-- [Discovery](./Discovery/README.md): Surface real user problems before committing to solutions
-- [Strategy](./Strategy/README.md): Size opportunities, position against competitors, and build roadmap narratives
-- [Data Analysis](./Data-Analysis/README.md): Investigate metric movements, design experiments, and define north stars
-- [Stakeholder Comms](./Stakeholder-Comms/README.md): Drive alignment, resolve conflict, and move decisions forward
-- [Sales Enablement](./Sales-Enablement/README.md): Equip sales with positioning, competitive context, and objection handling
-- [Leadership](./Leadership/README.md): Run better retros, develop your team, and kick off cross-functional work
+- [Discovery](./Discovery/README.md): Tools for understanding what customers actually need before you build
+- [Strategy](./Strategy/README.md): Tools for thinking clearly about markets, opportunities, and where to play
+- [Data Analysis](./Data-Analysis/README.md): Tools for making sense of data, signals, and what they mean for the product
+- [Stakeholder Comms](./Stakeholder-Comms/README.md): Tools for navigating alignment, conflict, and the humans in the room
+- [Sales Enablement](./Sales-Enablement/README.md): Tools for preparing, positioning, and showing up ready in front of customers
+- [Leadership](./Leadership/README.md): Tools for running better teams, sharper meetings, and stronger cross-functional work
 
 ---
 
