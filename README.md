@@ -1,6 +1,6 @@
 # PM Prompt Library
 
-A copy-paste-ready collection of AI prompts organized by PM practice area. Built for product managers who already know the craft. Prompts assume fluency with discovery, strategy, and stakeholder dynamics. Each prompt is a starting point: swap out the bracketed variables for your context, run it, and iterate from the output.
+A copy-paste-ready collection of AI prompts organized by PM practice area. Built for product managers who already know the craft. Prompts assume fluency with discovery, strategy, and stakeholder dynamics.
 
 ---
 
