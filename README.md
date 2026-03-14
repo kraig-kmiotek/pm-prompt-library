@@ -16,6 +16,8 @@ A copy-paste-ready collection of AI prompts organized by PM practice area. Built
 
 ## Usage
 
+These prompts are designed for AI tools that support attachments and web browsing, including Claude, ChatGPT, Copilot, and Gemini.
+
 Every prompt uses `[bracketed variables]` for the context you supply. Before running a prompt:
 
 1. Replace all `[bracketed variables]` with specifics from your situation
