@@ -1,5 +1,32 @@
 # Stakeholder Comms
 
+## Stakeholder Question Anticipator
+
+**Use Case:** You are preparing for a high-stakes meeting or presentation and want to anticipate the questions different roles in the room are likely to ask.
+
+**Prompt:**
+
+> You are an experienced product leader preparing for a critical stakeholder meeting. Using the context and materials provided below, generate a list of likely questions organized by role.
+>
+> Roles in the room: [ROLES - e.g., "engineering, finance, legal" or "executive leadership, sales, customer success"]
+>
+> Instructions:
+> 1. Generate 3-5 likely questions per role based on the topic and materials provided
+> 2. Organize the output by role with a clear header for each
+> 3. For each question, add a one-line note on why that role is likely to ask it
+> 4. Flag any questions that multiple roles are likely to ask
+> 5. At the end, list 2-3 questions that could derail the conversation if not addressed proactively
+>
+> Do not generate questions that have no basis in the context or materials provided.
+>
+> Topic or context: [DESCRIBE THE TOPIC, PROPOSAL, OR SITUATION IN FREE TEXT]
+>
+> Supporting materials: [ATTACH FILES or PASTE CONTENT - PRDs, roadmap proposals, decks, or any relevant documents]
+
+**Why It Works:** Most presenters prepare for the questions they expect from people who already agree with them. This prompt forces preparation across roles with different incentives and concerns. The "why they'd ask it" note builds empathy for each stakeholder's perspective rather than just producing a list to memorize. The derailing questions section surfaces the hardest objections so the PM can address them before they come up.
+
+---
+
 ## Meeting Agenda Generator
 
 **Use Case:** You need a structured agenda you can copy directly into an Outlook or calendar invite.
@@ -20,6 +47,30 @@
 > Meeting context: [DESCRIBE THE MEETING IN FREE TEXT - include details like the goal, attendees, meeting length, and any topics you know need to be covered]
 
 **Why It Works:** A well-ordered agenda signals to attendees what the meeting is for and what they need to prepare. Putting decisions before updates prevents meetings from running out of time on the things that matter most. The free text input keeps the friction low so the PM actually uses the prompt rather than skipping it.
+
+---
+
+## Bottom-Line-Up-Front Message Reframer
+
+**Use Case:** You have a story or update you need to communicate and want to reframe it so the most important point lands first, followed by the supporting context.
+
+**Prompt:**
+
+> You are an executive communications coach. Using the message provided below, reframe it using a bottom-line-up-front structure calibrated to the audience specified.
+>
+> Audience: [AUDIENCE - e.g., "executive leadership," "cross-functional peers," "direct reports," "customer"]
+>
+> Instructions:
+> 1. Open with a single sentence that states the bottom line clearly and directly
+> 2. Follow with 2-3 sentences of supporting context that justify or explain the bottom line
+> 3. Close with a clear statement of what you need from the audience, whether that is a decision, awareness, or action
+> 4. Calibrate the language, tone, and level of detail to the audience specified
+>
+> Do not preserve the original structure. Reorder the content so the most important point always comes first.
+>
+> Original message: [PASTE OR DESCRIBE THE STORY OR UPDATE YOU WANT TO COMMUNICATE]
+
+**Why It Works:** Most communicators bury the lead because they want to provide context before conclusions. Busy stakeholders, especially executives, read or listen in reverse, they want the point first and will ask for context if they need it. Forcing a single opening sentence disciplines the communicator to get clear on what actually matters before saying anything else.
 
 ---
 
@@ -45,30 +96,3 @@
 > Meeting notes: [PASTE RAW MEETING NOTES HERE]
 
 **Why It Works:** Follow-up emails written from memory miss action items and introduce ambiguity. Grounding the output strictly in the notes keeps it accurate. Separating action items from open questions forces clarity on what was decided versus what still needs resolution, which is where most meeting follow-ups fall short.
-
----
-
-## Stakeholder Question Anticipator
-
-**Use Case:** You are preparing for a high-stakes meeting or presentation and want to anticipate the questions different roles in the room are likely to ask.
-
-**Prompt:**
-
-> You are an experienced product leader preparing for a critical stakeholder meeting. Using the context and materials provided below, generate a list of likely questions organized by role.
->
-> Roles in the room: [ROLES - e.g., "engineering, finance, legal" or "executive leadership, sales, customer success"]
->
-> Instructions:
-> 1. Generate 3-5 likely questions per role based on the topic and materials provided
-> 2. Organize the output by role with a clear header for each
-> 3. For each question, add a one-line note on why that role is likely to ask it
-> 4. Flag any questions that multiple roles are likely to ask
-> 5. At the end, list 2-3 questions that could derail the conversation if not addressed proactively
->
-> Do not generate questions that have no basis in the context or materials provided.
->
-> Topic or context: [DESCRIBE THE TOPIC, PROPOSAL, OR SITUATION IN FREE TEXT]
->
-> Supporting materials: [ATTACH FILES or PASTE CONTENT - PRDs, roadmap proposals, decks, or any relevant documents]
-
-**Why It Works:** Most presenters prepare for the questions they expect from people who already agree with them. This prompt forces preparation across roles with different incentives and concerns. The "why they'd ask it" note builds empathy for each stakeholder's perspective rather than just producing a list to memorize. The derailing questions section surfaces the hardest objections so the PM can address them before they come up.
