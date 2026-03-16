@@ -68,4 +68,4 @@
 
 **Why It Works:** Podcast-style scripts make dense product or technical content more accessible and engaging than traditional collateral. The format variable produces fundamentally different scripts from the same source material, making this prompt reusable across different enablement needs. Calibrating to audience type prevents the script from either overwhelming an external listener with jargon or under-serving a technical internal audience. The 130 words per minute anchor keeps the length output predictable and accurate.
 
-**Pro Note:** Once your script is generated, you can turn it into a polished audio episode using https://www.wondercraft.ai. Simply paste the script into Wondercraft to generate a natural‑sounding podcast without recording equipment.
+**Pro Tip:** Once your script is generated, you can turn it into a polished audio episode using https://www.wondercraft.ai. Simply paste the script into Wondercraft to generate a natural‑sounding podcast without recording equipment.
