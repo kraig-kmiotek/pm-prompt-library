@@ -90,26 +90,6 @@
       box-shadow: 0 0 0 3px rgba(99,102,241,0.1);
     }
 
-    .category-pills {
-      display: flex;
-      gap: 0.5rem;
-      flex-wrap: wrap;
-    }
-
-    .pill {
-      padding: 0.375rem 0.875rem;
-      border-radius: 999px;
-      font-size: 0.82rem;
-      font-weight: 500;
-      cursor: pointer;
-      border: none;
-      transition: all 0.15s;
-      background: #f1f5f9;
-      color: #64748b;
-    }
-
-    .pill:hover { background: #e2e8f0; color: #1e293b; }
-    .pill.active { background: #1e293b; color: white; }
 
     main {
       max-width: 1200px;
@@ -485,16 +465,6 @@
 <div class="filter-bar">
   <div class="filter-inner">
     <input type="text" class="search-input" placeholder="Search prompts by title or use case..." id="search" />
-    <div class="category-pills" id="pills">
-      <button class="pill active" data-cat="all">All</button>
-      <button class="pill" data-cat="Discovery">Discovery</button>
-      <button class="pill" data-cat="Strategy">Strategy</button>
-      <button class="pill" data-cat="Data Analysis">Data Analysis</button>
-      <button class="pill" data-cat="Stakeholder Comms">Stakeholder Comms</button>
-      <button class="pill" data-cat="Sales Enablement">Sales Enablement</button>
-      <button class="pill" data-cat="Content Creation">Content Creation</button>
-      <button class="pill" data-cat="Leadership">Leadership</button>
-    </div>
   </div>
 </div>
 
@@ -658,17 +628,10 @@ function renderCategoryCards() {
 }
 
 function setCategory(cat) {
-  activeCategory = cat;
-  document.querySelectorAll(".pill").forEach(p => p.classList.toggle("active", p.dataset.cat === cat));
+  activeCategory = activeCategory === cat ? "all" : cat;
   renderCategoryCards();
   renderGrid();
 }
-
-document.getElementById("pills").addEventListener("click", e => {
-  const pill = e.target.closest(".pill");
-  if (!pill) return;
-  setCategory(pill.dataset.cat);
-});
 
 document.getElementById("search").addEventListener("input", e => {
   searchQuery = e.target.value;
