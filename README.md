@@ -2,6 +2,8 @@
 
 A copy-paste-ready collection of AI prompts organized by PM practice area. Built for product managers who already know the craft. Prompts assume fluency with discovery, strategy, and stakeholder dynamics.
 
+**[Browse the interactive library](https://kraig-kmiotek.github.io/pm-prompt-library/)**
+
 ---
 
 ## Table of Contents
