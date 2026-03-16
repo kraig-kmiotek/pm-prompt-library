@@ -20,13 +20,16 @@
 > 5. Keep the total post between 1,200 and 1,400 characters including spaces
 > 6. Use line breaks between every section to maximize white space and readability
 > 7. Write in the tone and voice specified
-> 8. Do not use hashtags, emojis, or corporate buzzwords
+> 8. Do not include hyperlinks in the body of the post.
+> 9. Do not use hashtags, emojis, or corporate buzzwords
 >
 > Do not summarize the input. Transform it into a post that feels original, human, and worth reading.
 >
 > Input: [ATTACH FILES or PASTE CONTENT - topic notes, articles, ideas, or any relevant material]
 
 **Why It Works:** LinkedIn's algorithm rewards posts that generate early engagement, which means the hook and structure matter as much as the content. Arrow lists improve readability on mobile, which is where most LinkedIn consumption happens. Banning buzzwords and forcing a character range keeps the output sharp and authentic rather than generic. The objective variable ensures the post is shaped around what the writer is actually trying to accomplish, not just what the input contains.
+
+**Posting Tip:** After publishing, place any links or references in the first comment. Keeping links out of the post itself helps maintain reach and early engagement.
 
 ---
 
@@ -64,3 +67,5 @@
 > Materials: [ATTACH FILES or PASTE CONTENT - product materials, marketing collateral, URLs]
 
 **Why It Works:** Podcast-style scripts make dense product or technical content more accessible and engaging than traditional collateral. The format variable produces fundamentally different scripts from the same source material, making this prompt reusable across different enablement needs. Calibrating to audience type prevents the script from either overwhelming an external listener with jargon or under-serving a technical internal audience. The 130 words per minute anchor keeps the length output predictable and accurate.
+
+**Pro Note:** Once your script is generated, you can turn it into a polished audio episode using https://www.wondercraft.ai. Simply paste the script into Wondercraft to generate a natural‑sounding podcast without recording equipment.
