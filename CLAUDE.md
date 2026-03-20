@@ -83,9 +83,3 @@ Existing categories: Discovery, Strategy, Data Analysis, Stakeholder Comms, Sale
 This is a self-contained static file. It reads `prompts.json` at runtime. Do not introduce build dependencies, bundlers, or external frameworks. Keep it vanilla — plain HTML, CSS, and JavaScript.
 
 Add Google Analytics events sparingly and only for meaningful user interactions (e.g., copy, filter, search).
-
-## Git Practices
-
-- Commit `prompts.json` with every prompt change — never out of step with the markdown.
-- Commit messages describe what changed and why, not just "update README."
-- One logical change per PR. Don't bundle prompt additions with site feature changes.
